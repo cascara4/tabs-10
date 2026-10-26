@@ -5,13 +5,16 @@ html {
 
 code {
     background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 9px;
+    border-radius: 20px;
+    padding: 1px 5px 1px 5px;
+    font-size: small;
 }
 
 .site-header {
     background-color: rgb(64, 155, 143);
-    padding: 20px 20px 0px 20px;;
+    padding: 10px 0px 0px 20px;
     border-radius: 20px 20px 0px 0px;
+    font-size: 10px;
 }
 
 .site-main {
@@ -24,7 +27,7 @@ code {
 .site-nav {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 15px 0px 0px 0px;
     display: flex;
     gap: 5px;
     justify-content: space-between;
@@ -41,6 +44,7 @@ code {
     padding: 10px;
     display: block;
     text-align: center;
+    font-size: 14px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -52,7 +56,18 @@ code {
     color: rgb(64, 155, 143);
     font-weight: bold;
 }
+
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.main-text-color-emphasis {
+    color: rgb(200, 102, 66);
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.main-text {
+    font-size:14px ;
 }
